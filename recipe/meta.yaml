@@ -1,0 +1,33 @@
+{% set name = "openresty" %}
+{% set version = "1.15.8.2" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://openresty.org/download/openresty-1.15.8.2.tar.gz
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - make
+    - autoconf
+    - automake
+    - libtool
+    - pkg-config
+    - perl
+  host:
+    - openssl
+    - pcre
+    - zlib
+
+about:
+    home: http://openresty.org
+
+extra:
+    recipe-maintainers:
+      - bkreider
