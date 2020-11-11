@@ -1,5 +1,5 @@
 {% set name = "openresty" %}
-{% set version = "1.17.8.2" %}
+{% set version = "1.19.3.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://openresty.org/download/openresty-{{ version }}.tar.gz
-  sha256: 2f321ab11cb228117c840168f37094ee97f8f0316eac413766305409c7e023a0 
+  sha256: f36fcd9c51f4f9eb8aaab8c7f9e21018d5ce97694315b19cacd6ccf53ab03d5d 
 
 build:
   number: 0 
