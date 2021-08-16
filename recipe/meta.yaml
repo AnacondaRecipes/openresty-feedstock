@@ -31,7 +31,7 @@ about:
     home: http://openresty.org
     license: BSD-3 
     license_family: BSD 
-    license_file: https://github.com/openresty/openresty/blob/master/COPYRIGHT
+    license_file: COPYRIGHT
     doc_url: https://github.com/openresty/openresty/blob/master/README.markdown 
     dev_url: https://github.com/openresty/openresty
 
