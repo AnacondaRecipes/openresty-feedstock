@@ -36,9 +36,9 @@ about:
     license: BSD-3-Clause
     license_family: BSD 
     license_file: COPYRIGHT
-    summary: OpenResty® is a dynamic web platform based on NGINX and LuaJIT.
+    summary: OpenResty is a dynamic web platform based on NGINX and LuaJIT.
     description: >
-      OpenResty® is a full-fledged web platform that integrates our enhanced version
+      OpenResty is a full-fledged web platform that integrates our enhanced version
       of the Nginx core, our enhanced version of LuaJIT, many carefully written Lua
       libraries, lots of high quality 3rd-party Nginx modules, and most of their external
       dependencies. It is designed to help developers easily build scalable web
