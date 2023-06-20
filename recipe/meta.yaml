@@ -23,7 +23,7 @@ requirements:
     - pkg-config
     - perl
   host:
-    - openssl {{ openssl }}
+    - openssl 3.0.8
     - pcre 8.45
     - zlib {{ zlib }}
   run:
